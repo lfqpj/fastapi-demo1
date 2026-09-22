@@ -15,5 +15,6 @@ async def hello(name: str):
     message = build_message(name)
     return {
         "success": True,
-        "message": message
+        "message": message,
+        "version": "1.0.0"
     }
